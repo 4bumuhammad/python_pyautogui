@@ -76,7 +76,7 @@ Run Project:
         ❯ python3 getposition.py
 
 <p align="center">
-    <img src="./gambar-petunjuk/ss_getposition_1.png" alt="ss_getposition_1" style="display: block; margin: 0 auto;">
+    <img src="./gambar-petunjuk/ss_getposition_1.1.png" alt="ss_getposition_1.1" style="display: block; margin: 0 auto;">
 </p>
 
 ---
