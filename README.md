@@ -33,9 +33,39 @@ Begin Project:
         setuptools              58.1.0
 
 
+## Spesifikasi OS :
+
+    ❯ system_profiler SPSoftwareDataType SPHardwareDataType
+
+        Software:
+            System Software Overview:
+                System Version: macOS 13.3.1 (22E261)
+                Kernel Version: Darwin 22.4.0
+                Boot Volume: Macintosh HD
+                Boot Mode: Normal    
+                . . .
+
+        Hardware:
+            Hardware Overview:
+                Model Name: MacBook Pro
+                Model Identifier: MacBookPro17,1
+                Model Number: MYD82ID/A
+                Chip: Apple M1
+                Total Number of Cores: 8 (4 performance and 4 efficiency)
+                Memory: 8 GB
+                . . .
+
+## Konfigurasi pada OS
+
+Berikan akses pada code editor dalam hal ini saya menggunakan Visual Studio Code.
+
+System Settings --> Privacy & Security --> Accessibility --> [tambahkan aplikasi Visual Studio Code]
+
+---
+you
 Run Project:
 
-### Code 1.| get position cursor
+### Code 001getposition.py | get position cursor
 
     import pyautogui
 
