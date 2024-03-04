@@ -4,7 +4,7 @@
 
 Reference :
 
-https://pyautogui.readthedocs.io/en/latest/quickstart.html#general-functions
+https://pyautogui.readthedocs.io/en/latest/index.html
 
 
 ## Basic
