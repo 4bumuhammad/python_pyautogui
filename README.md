@@ -126,3 +126,27 @@ Buka aplikasi https://jspaint.app, kemudian jalankan project.
 </p>
 
 ---
+
+#### &#x1F680; Code 004pyautogui-screenshot.py | screenshot
+
+    import pyautogui
+
+    img1 = pyautogui.screenshot()
+    img1.save('testimagescr1.png')
+
+    im2 = pyautogui.screenshot(region=(-173, -358, 940, 360))
+    im2.save("testimagescr2.png")
+
+
+    print('screenshot taken')
+
+testimagescr1.png
+<p align="center">
+    <img src="./gambar-petunjuk/testimagescr1.png" alt="testimagescr1" style="display: block; margin: 0 auto;">
+</p>
+
+testimagescr2.png
+<p align="center">
+    <img src="./gambar-petunjuk/testimagescr2.png" alt="testimagescr2" style="display: block; margin: 0 auto;">
+</p>
+

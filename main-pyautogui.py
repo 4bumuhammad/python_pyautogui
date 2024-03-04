@@ -9,7 +9,7 @@ import time
 ## https://www.youtube.com/watch?v=3PekU8OGBCA&t=251s
 ## 19.50s
 
-time.sleep(3)
+# time.sleep(3)
 # print(pyautogui.size())                   # Prints the resolution of screen --> Size(width=1440, height=900)
 # print(pyautogui.position())               # Prints the current position of the mouse --> Point(x=-1771, y=-1049)
 # pyautogui.moveTo(-884, -431,3)
@@ -32,18 +32,25 @@ time.sleep(3)
 ## Example of mouse up and down
 ## Used https://jspaint.app
 
-pyautogui.mouseDown(-100, -241, button="left")
-pyautogui.moveTo(-50, -241, 3)
-pyautogui.mouseUp()
-pyautogui.moveTo(0,-241, 3)
+# pyautogui.mouseDown(-100, -241, button="left")
+# pyautogui.moveTo(-50, -241, 3)
+# pyautogui.mouseUp()
+# pyautogui.moveTo(0,-241, 3)
 
-time.sleep(1)
-distance = 200
-while distance > 0:
-    pyautogui.dragRel(distance, 0, 1, button="left")
-    distance = distance - 10
-    pyautogui.dragRel(0,distance, 1, button="left")
-    pyautogui.dragRel(-distance, 0, 1, button="left")
-    distance = distance - 10
-    pyautogui.dragRel(0,-distance, 1, button="left")
-time.sleep(2)
+# time.sleep(1)
+# distance = 200
+# while distance > 0:
+#     pyautogui.dragRel(distance, 0, 1, button="left")
+#     distance = distance - 10
+#     pyautogui.dragRel(0,distance, 1, button="left")
+#     pyautogui.dragRel(-distance, 0, 1, button="left")
+#     distance = distance - 10
+#     pyautogui.dragRel(0,-distance, 1, button="left")
+# time.sleep(2) 
+
+im = pyautogui.screenshot(region=(-173, -358, 940, 360))
+im.save("testimagescr.png")
+
+# screenshot = pyautogui.screenshot()
+# screenshot.save('image1.png')
+# print('screenshot taken')
