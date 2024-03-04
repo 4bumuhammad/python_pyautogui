@@ -97,6 +97,9 @@ Run Project:
 
 #### &#x1F680; Code 003pyautogui-dragRel.py | dragrel
 
+Buka aplikasi https://jspaint.app, kemudian jalankan project.
+
+
     import pyautogui
     import time
 
