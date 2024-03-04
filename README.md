@@ -62,7 +62,7 @@ Berikan akses pada code editor dalam hal ini saya menggunakan Visual Studio Code
 System Settings --> Privacy & Security --> Accessibility --> [tambahkan aplikasi Visual Studio Code]
 
 ---
-you
+
 Run Project:
 
 ### Code 001getposition.py | get position cursor
@@ -77,6 +77,20 @@ Run Project:
 
 <p align="center">
     <img src="./gambar-petunjuk/ss_getposition_1.1.png" alt="ss_getposition_1.1" style="display: block; margin: 0 auto;">
+</p>
+
+---
+
+### Code 002pyautogui-write.py | write
+
+    import pyautogui
+
+    pyautogui.moveTo(-169,-241)
+    pyautogui.click()
+    pyautogui.write("bismillah, assalamualaikum warahmatullah wabarakatuh.")
+
+<p align="center">
+    <img src="./gambar-petunjuk/ss_pyautogui_write_1.png" alt="ss_pyautogui_write_1" style="display: block; margin: 0 auto;">
 </p>
 
 ---
