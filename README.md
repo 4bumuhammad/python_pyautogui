@@ -33,7 +33,7 @@ Begin Project:
         setuptools              58.1.0
 
 
-## Spesifikasi OS :
+## &#x1F4D6; Spesifikasi OS :
 
     ❯ system_profiler SPSoftwareDataType SPHardwareDataType
 
@@ -55,7 +55,7 @@ Begin Project:
                 Memory: 8 GB
                 . . .
 
-## Konfigurasi pada OS
+## &#x2699; Konfigurasi pada OS
 
 Berikan akses pada code editor dalam hal ini saya menggunakan Visual Studio Code.
 
@@ -65,7 +65,7 @@ System Settings --> Privacy & Security --> Accessibility --> [tambahkan aplikasi
 
 Run Project:
 
-### Code 001getposition.py | get position cursor
+#### &#x1F680; Code 001getposition.py | get position cursor
 
     import pyautogui
 
@@ -81,7 +81,7 @@ Run Project:
 
 ---
 
-### Code 002pyautogui-write.py | write
+#### &#x1F680; Code 002pyautogui-write.py | write
 
     import pyautogui
 
