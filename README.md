@@ -2,7 +2,7 @@
 
 ---
 
-Reference :
+&#x1FAA2; Reference :
 
 https://pyautogui.readthedocs.io/en/latest/index.html
 
@@ -155,3 +155,4 @@ testimagescr2.png
     <img src="./gambar-petunjuk/testimagescr2.png" alt="testimagescr2" style="display: block; margin: 0 auto;">
 </p>
 
+---
