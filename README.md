@@ -145,12 +145,12 @@ Buka aplikasi https://jspaint.app, kemudian jalankan project.
 
     print('screenshot taken')
 
-testimagescr1.png
+Hasil screenshot: testimagescr1.png
 <p align="center">
     <img src="./gambar-petunjuk/testimagescr1.png" alt="testimagescr1" style="display: block; margin: 0 auto;">
 </p>
 
-testimagescr2.png
+Hasil screenshot: testimagescr2.png
 <p align="center">
     <img src="./gambar-petunjuk/testimagescr2.png" alt="testimagescr2" style="display: block; margin: 0 auto;">
 </p>
